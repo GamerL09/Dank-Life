@@ -10,7 +10,7 @@
 /* Dark Mode */
 [data-theme="dark"] {
     --bg-color: #121212; /* Almost black */
-    --text-color: #ffffff; 
+    --text-color: #00000; 
     --primary-color: #1f1f1f; 
     --secondary-color: #292929;
     --accent-color: #00ff7f; /* Neon green */
