@@ -1,46 +1,31 @@
-/* Light Mode */
-:root {
-    --bg-color: #1a1a1a; /* Dark background */
-    --text-color: #00000; /* White text */
-    --primary-color: #2d2d2d; /* Dark gray for headers */
-    --secondary-color: #3a3a3a; /* Slightly lighter gray for buttons */
-    --accent-color: #00ff7f; /* Neon green */
-}
-
-/* Dark Mode */
-[data-theme="dark"] {
-    --bg-color: #121212; /* Almost black */
-    --text-color: #00000; 
-    --primary-color: #1f1f1f; 
-    --secondary-color: #292929;
-    --accent-color: #00ff7f; /* Neon green */
-}
-
+/* General Styles */
 body {
-    background: var(--bg-color);
-    color: var(--text-color);
+    background: #121212; /* Almost black */
+    color: #ffffff; /* White text */
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     transition: background 0.3s, color 0.3s;
 }
 
+/* Header */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--primary-color);
+    background: #1f1f1f; /* Dark Gray */
     padding: 15px 20px;
-    color: var(--text-color);
+    color: #ffffff;
     font-size: 18px;
     font-weight: bold;
     box-shadow: 0 4px 10px rgba(0, 255, 127, 0.2); /* Green glow */
 }
 
+/* Buttons */
 button {
-    background: var(--secondary-color);
-    color: var(--text-color);
-    border: 2px solid var(--accent-color);
+    background: #292929; /* Slightly lighter gray */
+    color: #ffffff;
+    border: 2px solid #00ff7f; /* Neon green */
     padding: 10px 15px;
     cursor: pointer;
     font-size: 16px;
@@ -49,19 +34,22 @@ button {
 }
 
 button:hover {
-    background: var(--accent-color);
+    background: #00ff7f; /* Neon Green */
     color: black;
 }
 
+/* Main Content */
 main {
     padding: 20px;
 }
 
+/* Headers */
 h2, h3 {
-    color: var(--accent-color);
+    color: #00ff7f; /* Neon Green */
     text-shadow: 0 0 5px rgba(0, 255, 127, 0.8); /* Neon glow */
 }
 
+/* Lists */
 ul {
     list-style: none;
     padding: 0;
@@ -72,8 +60,9 @@ ul li {
     font-size: 16px;
 }
 
+/* Links */
 a {
-    color: var(--accent-color);
+    color: #00ff7f;
     text-decoration: none;
     font-weight: bold;
 }
@@ -82,10 +71,11 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 15px;
-    background: var(--primary-color);
+    background: #1f1f1f;
     color: white;
     font-size: 14px;
     box-shadow: 0 -4px 10px rgba(0, 255, 127, 0.2); /* Green glow */
