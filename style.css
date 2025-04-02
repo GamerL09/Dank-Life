@@ -1,7 +1,7 @@
 /* Light Mode */
 :root {
     --bg-color: #1a1a1a; /* Dark background */
-    --text-color: #ffffff; /* White text */
+    --text-color: #00000; /* White text */
     --primary-color: #2d2d2d; /* Dark gray for headers */
     --secondary-color: #3a3a3a; /* Slightly lighter gray for buttons */
     --accent-color: #00ff7f; /* Neon green */
